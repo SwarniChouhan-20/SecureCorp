@@ -1,0 +1,33 @@
+New Hire Onboarding Checklist
+==============================
+
+Week 1
+  [x] Get portal login from your manager
+  [x] Read handbook.txt
+  [ ] Set up your profile (Dashboard > Your profile)
+  [ ] Introduce yourself in Team Notes
+  [ ] Review network-topology.txt if you're on Platform/Infra
+
+Week 2
+  [ ] Shadow a teammate on an on-call rotation
+  [ ] Request access to your team's shared drive (ask your manager —
+      not self-service yet)
+  [ ] Complete the security awareness training (link on the intranet
+      home page, not in this portal)
+
+Notes from your onboarding buddy
+---------------------------------
+"Honestly the portal is pretty barebones right now — IT knows, it's on
+the roadmap. If something looks broken, it's probably just not built
+yet, not you doing anything wrong. Ping #it-helpdesk on chat if you
+get stuck."
+
+FAQ
+---
+Q: Why can't I see other departments' notes?
+A: Everyone shares the same Team Notes board for now — there's no
+   per-department separation yet.
+
+Q: Who do I contact about a backup/restore?
+A: Settings > Import on your own account, or #platform-team if it's a
+   bigger restore than a single workspace.

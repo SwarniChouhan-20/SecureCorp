@@ -1,0 +1,34 @@
+SecureCorp Employee Handbook (v3.2)
+====================================
+
+Welcome to SecureCorp! This handbook covers the basics every new hire
+needs during their first week.
+
+1. IT & Access
+   - All employees get a portal account on day one (this app).
+   - Password resets go through IT Helpdesk (ext. 4200) — self-service
+     reset is "coming soon" (it has been "coming soon" since 2022).
+   - VPN profiles are issued separately; see the Network team.
+
+2. Internal Tools
+   - Team Notes: post updates, no formatting restrictions (be nice).
+   - Network Diagnostic Tool: lets you ping a host from inside the
+     corporate network. Handy for checking if a server is reachable
+     before opening a ticket.
+   - Webhook Tool: previews a URL's response — useful for validating
+     third-party webhook endpoints before saving them in integrations.
+   - Settings > Import: restore a workspace backup exported from
+     another SecureCorp instance (e.g. when migrating teams).
+
+3. File Library
+   - This is the general file library. Ask your manager for the path
+     to your team's shared folder if you don't see it listed in the
+     sidebar yet.
+   - See also: onboarding-guide.txt, network-topology.txt
+
+4. Security Reminders
+   - Don't share your password with anyone, including IT.
+   - Report anything that looks suspicious to security@securecorp.local
+   - Admin accounts should only be used for admin tasks.
+
+— SecureCorp People Ops

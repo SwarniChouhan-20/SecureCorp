@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "email": "admin@securecorp.local",
+      "secret_note": "Root creds for the backup server are in /root/backup.key"
+    },
+    {
+      "id": 2,
+      "username": "jdoe",
+      "password": "password1",
+      "role": "employee",
+      "email": "jdoe@securecorp.local",
+      "secret_note": "Reminder: rotate my password (never did)"
+    },
+    {
+      "id": 3,
+      "username": "asmith",
+      "password": "letmein99",
+      "role": "employee",
+      "email": "asmith@securecorp.local",
+      "secret_note": "Birthday: 1998-04-12"
+    },
+    {
+      "id": 4,
+      "username": "mchen",
+      "password": "summer2024",
+      "role": "employee",
+      "email": "mchen@securecorp.local",
+      "secret_note": "WiFi guest password this week: GuestNet!42"
+    },
+    {
+      "id": 5,
+      "username": "rpatel",
+      "password": "manager01",
+      "role": "manager",
+      "email": "rpatel@securecorp.local",
+      "secret_note": "Approved Q3 budget doc is in the shared drive, not here"
+    },
+    {
+      "id": 6,
+      "username": "svc_backup",
+      "password": "B@ckup$vc2023",
+      "role": "service",
+      "email": "svc_backup@securecorp.local",
+      "secret_note": "Service account for nightly workspace export job \u2014 do not disable"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "author": "admin",
+      "body": "Welcome to the SecureCorp internal notes board."
+    },
+    {
+      "id": 2,
+      "author": "rpatel",
+      "body": "Reminder: sprint demo moved to Thursday 2pm."
+    },
+    {
+      "id": 3,
+      "author": "mchen",
+      "body": "Anyone else seeing the ping tool hang on long hostnames? Works fine for me on short ones."
+    },
+    {
+      "id": 4,
+      "author": "asmith",
+      "body": "Posted the new onboarding guide to the file library, check /files if you're new here."
+    }
+  ]
+}

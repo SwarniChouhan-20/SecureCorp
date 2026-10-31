@@ -1,0 +1,24 @@
+Internal Network — Quick Reference (Platform Team)
+====================================================
+Last updated by: asmith
+
+NOTE: this is an internal reference doc, not meant for the general
+file library — flagging to get it moved. Leaving it here for now so
+the on-call folks can find it.
+
+Internal services (reachable from app servers only):
+  10.0.0.5     - metrics.internal          (Prometheus)
+  10.0.0.8     - metadata.internal:8080    (legacy config service, no auth —
+                                             on the deprecation list)
+  127.0.0.1    - localhost (this host)     (portal app itself runs on :5001)
+
+Reminders:
+  - The portal app server can reach the above hosts even though your
+    laptop can't — if you need to sanity-check one of them, open a
+    ticket with #platform-team rather than trying to reach it directly.
+  - metadata.internal has no auth in front of it on purpose (legacy),
+    do NOT expose it externally. It's getting replaced this quarter.
+
+Known external integrations:
+  - Webhook previews go out through the portal's Webhook Tool —
+    outbound only, no allow-list configured yet (also on the backlog).

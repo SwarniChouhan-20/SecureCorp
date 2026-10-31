@@ -1,0 +1,25 @@
+SecureCorp IT — Minor Incident Log (archived)
+================================================
+
+2024-02-11  Portal login slow for ~20 min, root cause: cert renewal
+            job on auth proxy ran during business hours. Rescheduled
+            to 3am going forward.
+
+2024-05-03  A contractor's laptop was flagged by EDR for unusual
+            outbound traffic. Turned out to be a misconfigured backup
+            agent pointed at the wrong host. No data left the network.
+            Agent config fixed.
+
+2024-07-22  Employee reported a weird note on the Team Notes board
+            that redirected their browser somewhere unexpected when
+            opened. Note was deleted. Reminder sent to all staff:
+            don't paste links from the Notes board directly into your
+            browser if something seems off — just flag it to IT
+            instead of clicking through.
+
+2024-09-30  Settings > Import backup restore failed for a user with a
+            "corrupted" error. Turned out to be an old export format
+            from before the v3.2 migration. Re-exported, worked fine.
+
+— maintained by IT Ops. Older entries archived to cold storage, ask
+  #it-helpdesk if you need something pre-2024.
